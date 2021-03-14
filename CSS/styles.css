@@ -1,0 +1,167 @@
+/*HEADINGS*/
+h1 {
+  color:#456268;
+  margin: 0;
+  position: relative;
+  font-family: 'Sacramento', cursive;
+}
+h2 {
+  color: #456268;
+  font-family: 'Montserrat', sans-serif;
+}
+h3 {
+  color:#79a3b1;
+}
+
+/*BODY*/
+body {
+  margin: 0;
+  font-family: 'Merriweather', serif;
+  text-align: center;
+  position: relative;
+}
+
+/*PARAGRAPH*/
+
+p {
+  position: relative;
+}
+.me{
+  margin-top: 50px;
+color:#fcf8ec;
+}
+
+.footer-link {
+  color:#456268;
+  line-height: 5;
+  margin-top: 100px;
+}
+/*HORIZONTAL RULE*/
+hr {
+  border-style: none;
+  border-color: #d0e8f2;
+  border-width: 5px;
+  height: 1px;
+  border-top-style: dotted;
+  width: 10%;
+  margin: auto;
+
+}
+/*DIV*/
+
+.first-page {
+  background-color:#d0e8f2;
+  margin: 0;
+  position: relative;
+  width: 100%;
+  height: 700px;
+  padding-top: 100px;
+}
+
+.profile {
+  margin: 100px auto 100px auto;
+  line-height: 2;
+}
+
+.skills {
+  margin-top: 100px;
+}
+
+.my-skills {
+  width: 50%;
+  text-align: justify;
+  margin: 100px auto 100px auto;
+  line-height: 2;
+}
+
+.other-skills {
+  width: 50%;
+  text-align: justify;
+  margin: 100px auto 100px auto;
+  line-height: 2;
+}
+
+.get-in-touch{
+
+  margin: 100px auto 100px auto;
+
+}
+
+.links {
+  background-color:#79a3b1;
+  margin-bottom: 0;
+  height: 200px;
+}
+/*IMAGES*/
+.worldwide {
+  position: relative;
+  top: 50px;
+}
+
+.cloud-above {
+  right: 400px;
+  top: 50px;
+
+  position: absolute;
+}
+
+.cloud-below {
+  position: absolute;
+  left: 400px;
+  top: 250px;
+
+}
+
+.profile-picture {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 100%;
+  width: 25%
+}
+
+.web-design {
+  border-radius: 50%;
+  width: 25%;
+  float: left;
+  margin-right: 50px
+}
+
+.studio-mixer {
+  border-radius: 50%;
+  width: 25%;
+  float: right;
+  margin-left: 50px;
+}
+
+/*BUTTON*/
+
+.contact-me {
+  margin-top: 50PX;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #456268;
+   font-family: Arial;
+   font-size: 40px;
+   font-weight: 100;
+   padding: 40px;
+   background-color: #79A3B1;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.contact-me:hover {
+   border: solid #337FED 1px;
+   background: #1E62D0;
+   background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
